@@ -1,0 +1,26 @@
+[
+  {
+    "image": "/img/testimonial/testimonal-01.jpeg",
+    "name": "Mark Wilmore",
+    "service": "US Freight Load Booking Service",
+    "content": "Excellent Load Booking Service! US Freight Now has made load booking effortless. The process is quick, and their team keeps me informed every step of the way. I appreciate their professionalism and competitive pricing. They've become my go-to logistics partner for reliable and efficient service. Highly recommend them!"
+  },
+  {
+    "image": "/img/testimonial/testimonal-03.jpeg",
+    "name": "St. Smith",
+    "service": "US Freight Billing Service",
+    "content": "billing process is seamless and transparent. Invoices are always accurate and easy to understand, with no hidden fees or surprises. Their efficient service saves me time and hassle, allowing me to focus on my business. I highly recommend their reliable billing system!"
+  },
+  {
+    "image": "/img/testimonial/testimonal-02.jpeg",
+    "name": "joseph Tylor",
+    "service": "US Freight Logistics Service",
+    "content": "US Freight Now delivers outstanding logistics solutions. Their team is responsive, and they handle every shipment with care and precision. From planning to execution, everything runs smoothly, saving me time and stress. Their expertise has been invaluable for my business. I highly recommend their reliable logistics services!"
+  },
+  {
+    "image": "/img/testimonial/testimonials-v2-img3.jpg",
+    "name": "Rebecca Rousom",
+    "service": "US Freight Roadside Assistance Services",
+    "content": "US Freight Now's roadside assistance is a lifesaver! When I had a breakdown, their team responded quickly and got me back on the road in no time. The service was efficient and professional, giving me peace of mind on the road."
+  }
+]

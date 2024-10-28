@@ -175,10 +175,10 @@ const Header = () => {
                       <div className="navbar-wrap main-menu">
                         <ul className="navigation">
                           <li className={localtion === "/" && "active"}>
-                            <a href="/">Home</a>
+                            <Link href="/">Home</Link>
                           </li>
                           <li className={localtion === "/about" && "active"}>
-                            <a href="/about">About</a>
+                            <Link to="/about">About</Link>
                           </li>
                           <li
                             className={`${
@@ -187,13 +187,13 @@ const Header = () => {
                               "active"
                             }`}
                           >
-                            <a href="/services">Services</a>
+                            <Link to="/services">Services</Link>
                           </li>
                           <li className={localtion === "/team" && "active"}>
-                            <a href="/team">Team</a>
+                            <Link to="/team">Team</Link>
                           </li>
                           <li className={localtion === "/contact" && "active"}>
-                            <a href="/contact">Contact</a>
+                            <Link to="/contact">Contact</Link>
                           </li>
                         </ul>
                       </div>
@@ -276,13 +276,13 @@ const Header = () => {
                       transition: "0.3s linear",
                     }}
                   >
-                    <a href="/">Home</a>
+                    <Link to="/">Home</Link>
                   </li>
                   <li className="">
-                    <a href="/about">About</a>
+                    <Link to="/about">About</Link>
                   </li>
                   <li className="">
-                    <a href="/services">Services</a>
+                    <Link to="/services">Services</Link>
                   </li>
                   <li
                     style={{
@@ -291,7 +291,7 @@ const Header = () => {
                       transition: "0.3s linear",
                     }}
                   >
-                    <a href="/team">Team</a>
+                    <Link to="/team">Team</Link>
                   </li>
                   <li
                     style={{
@@ -300,7 +300,7 @@ const Header = () => {
                       transition: "0.3s linear",
                     }}
                   >
-                    <a href="/contact">Contact</a>
+                    <Link to="/contact">Contact</Link>
                   </li>
                 </ul>
               </div>

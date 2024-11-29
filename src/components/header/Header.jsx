@@ -1,7 +1,6 @@
 "use client";
 import { Link, useLocation } from "react-router-dom";
-import React, { useEffect, useState } from "react";
-import Select from "react-select";
+import { useEffect, useState } from "react";
 
 // Options for language selection
 const options = [

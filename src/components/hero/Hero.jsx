@@ -91,7 +91,7 @@ const Hero = ({ scrollToPricing }) => {
                     </div>
                     <div className="btn-box">
                       <button onClick={scrollToPricing} className="thm-btn">
-                        <span className="txt">Logistics Services</span>
+                        <span className="txt">Trucking bussiness</span>
                         <i className="icon-right-arrow"></i>
                       </button>
                     </div>

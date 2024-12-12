@@ -4,10 +4,10 @@
     "number": "01",
     "title": "RoadSide Assistance",
     "description": "Breakdowns and unexpected issues can occur at any time on the road, potentially…",
-    "link": "roadside-assistance"
+    "link": "road-transport"
   },
   {
-    "image": "/img/service/tracing.jpg", 
+    "image": "/img/service/tracing.jpg",
     "number": "02",
     "title": "Tracking",
     "description": "Real-time tracking is essential for ensuring timely deliveries and maintaining transparency",

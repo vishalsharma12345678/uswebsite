@@ -91,8 +91,8 @@ const AboutSection = () => {
                   </div>
 
                   <div className="text-box">
-                    <h3>Lower costs, greater efficiency.</h3>
-                    <p>Reduced logistics costs and increased efficiency</p>
+                    <h3>Less wastage of time, greater efficiency.</h3>
+                    <p>Reduced Dispatch costs and increased efficiency</p>
                   </div>
                 </li>
                 <li>

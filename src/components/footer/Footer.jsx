@@ -1,8 +1,8 @@
 // Footer.jsx
-import React from 'react';
-import { Link } from 'react-router-dom';
-import ScrollToTop from 'react-scroll-to-top';
-import BrandLogo from '../ui/logo/BrandLogo'; 
+import React from "react";
+import { Link } from "react-router-dom";
+import ScrollToTop from "react-scroll-to-top";
+import BrandLogo from "../ui/logo/BrandLogo";
 import "../../assets/css/color-1.css";
 
 const Footer = () => {
@@ -16,7 +16,7 @@ const Footer = () => {
         color="white"
         style={{
           backgroundColor: "#FFD550",
-          "&:hover": { backgroundColor: "#186265" }
+          "&:hover": { backgroundColor: "#186265" },
         }}
       />
       <div
@@ -32,26 +32,50 @@ const Footer = () => {
       <div className="footer-main">
         <div className="container">
           <div className="footer-main__bottom">
-            <div className="row" style={{display:'flex',justifyItems:'center '}} >
+            <div
+              className="row"
+              style={{ display: "flex", justifyItems: "center " }}
+            >
               {/* About Section */}
-              <div className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".1s">
+              <div
+                className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
+                data-wow-delay=".1s"
+              >
                 <div className="single-footer-widget footer-widget__about">
                   <div className="logo-box">
                     <Link to="/">
-                      <BrandLogo imageSrc="/img/logo/logo.jpg"/>
+                      <BrandLogo imageSrc="/img/logo/logo.jpg" />
                     </Link>
                   </div>
                   <div className="footer-widget__about-inner">
                     <p className="text1">
-                    At US freight Now LLC, we are committed to providing innovative, reliable logistics solutions. With a focus on timely, secure deliveries, we ensure your shipments reach their destination with efficiency and care.
+                      At US freight Now LLC, we are committed to providing
+                      innovative, reliable Dispatch solutions. With a focus on
+                      timely, secure deliveries, we ensure your shipments reach
+                      their destination with efficiency and care.
                     </p>
                     <p className="text2">We are available</p>
                     <p className="text3">Mon-Fri: 08:00AM to 06:00PM</p>
 
                     <div className="footer-social-link">
-                      <a target="_blank" href="https://www.facebook.com/usfreightnow?mibextid=LQQJ4d"><span className="icon-facebook"></span></a>
-                      <a target="_blank" href="https://www.instagram.com/usfreightnow/"><span className="icon-instagram"></span></a>
-                      <a target="_blank" href="https://www.linkedin.com/company/us-freight-now/about/"><span className="icon-linkedin"></span></a>
+                      <a
+                        target="_blank"
+                        href="https://www.facebook.com/usfreightnow?mibextid=LQQJ4d"
+                      >
+                        <span className="icon-facebook"></span>
+                      </a>
+                      <a
+                        target="_blank"
+                        href="https://www.instagram.com/usfreightnow/"
+                      >
+                        <span className="icon-instagram"></span>
+                      </a>
+                      <a
+                        target="_blank"
+                        href="https://www.linkedin.com/company/us-freight-now/about/"
+                      >
+                        <span className="icon-linkedin"></span>
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -92,10 +116,18 @@ const Footer = () => {
 
                   <div className="footer-widget__links-box">
                     <ul>
-                      <li><Link to="/services">Tracking</Link></li>
-                      <li><Link to="/services">Roadside Assistance</Link></li>
-                      <li><Link to="/services">Load Booking</Link></li>
-                      <li><Link to="/services">Invoicing</Link></li>
+                      <li>
+                        <Link to="/services">Tracking</Link>
+                      </li>
+                      <li>
+                        <Link to="/services">Roadside Assistance</Link>
+                      </li>
+                      <li>
+                        <Link to="/services">Load Booking</Link>
+                      </li>
+                      <li>
+                        <Link to="/services">Invoicing</Link>
+                      </li>
                     </ul>
                   </div>
                 </div>
@@ -136,7 +168,6 @@ const Footer = () => {
                   </div>
                 </div>
               </div>
-
             </div>
           </div>
         </div>
@@ -148,14 +179,21 @@ const Footer = () => {
           <div className="footer-bottom__inner">
             <div className="copyright-text">
               <p>
-                © {currentYear} <Link to="/">US freight Now LLC,</Link> All Rights Reserved.
+                © {currentYear} <Link to="/">US freight Now LLC,</Link> All
+                Rights Reserved.
               </p>
             </div>
             <div className="copyright-menu">
               <ul>
-                <li><Link to="/terms">Terms &amp; Conditions</Link></li>
-                <li><Link to="/privacy">Privacy Policy</Link></li>
-                <li><Link to="/support">Support</Link></li>
+                <li>
+                  <Link to="/terms">Terms &amp; Conditions</Link>
+                </li>
+                <li>
+                  <Link to="/privacy">Privacy Policy</Link>
+                </li>
+                <li>
+                  <Link to="/support">Support</Link>
+                </li>
               </ul>
             </div>
           </div>

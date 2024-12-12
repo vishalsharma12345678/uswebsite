@@ -131,7 +131,7 @@ export default function CompanyBenefit() {
                     <h3>Right Time Delivery</h3>
                     <p>
                       We ensure your shipments arrive exactly when needed,
-                      thanks to our efficient logistics and planning.
+                      thanks to our efficient Dispatch and planning.
                     </p>
                   </div>
                 </li>

@@ -28,7 +28,7 @@ const ServiceSection2 = () => {
               <h5>Our Services</h5>
             </div>
             <h2>
-              We Provide thies Kinds of <br /> Logistics Service
+              We Provide thies Kinds of <br /> Dispatch Service
             </h2>
           </div>
 

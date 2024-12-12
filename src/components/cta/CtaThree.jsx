@@ -24,7 +24,7 @@ const CtaThree = () => {
                 <h5>Get in touch</h5>
               </div>
               <h2>
-                Looking for the best logistics <br />
+                Looking for the best Dispatch <br />
                 services
               </h2>
             </div>

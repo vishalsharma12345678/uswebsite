@@ -130,7 +130,7 @@ const ChooseUs = () => {
                         <span className="odometer" data-count="250">
                           {isVisible && AnimatedNumbers && (
                             <AnimatedNumbers
-                              animateToNumber={245}
+                              animateToNumber={1500}
                               transitions={(index) => ({
                                 type: "spring",
                                 duration: index + 0.3,
@@ -196,7 +196,7 @@ const ChooseUs = () => {
                         <span className="odometer" data-count="12">
                           {isVisible && AnimatedNumbers && (
                             <AnimatedNumbers
-                              animateToNumber={104}
+                              animateToNumber={1040}
                               transitions={(index) => ({
                                 type: "spring",
                                 duration: index + 0.3,
